@@ -1,0 +1,99 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  margin-left: 20rem;
+  margin-top: 2rem;
+  z-index: -2;
+}
+
+.card {
+  margin: 20px;
+  border: 2px solid #ededed;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.card-img {
+  width: 13rem;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.card-reviews {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.rating-star {
+  color: #d5ab55;
+}
+
+.total-reviews {
+  width: 13rem;
+  text-align: justify;
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+.explore-button{
+  
+}
+
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bag-icon {
+  color: #535353;
+}
+
+
+
+
+
+.button-a {
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 200;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 12px;
+  box-shadow: 0 10px 10px -8px rgba(102, 101, 101, 0.7);
+}
+
+.button-a{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-a:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 10px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-a:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.button-a:hover:after {
+  opacity: 1;
+  right: 10px;
+}
