@@ -33,9 +33,13 @@ On Clicking the read more button of any model you will be able to see the descri
 These packages are specified under the "dependencies" section of the package.json file.
 
 # Page Load Time Of The Project 
-The Page Load time of the project is 162ms in Asia-Japan-Tokyo region
+The Page Load time of the project is 162 ms in Asia-Japan-Tokyo region
+
+<img width="801" alt="Screenshot 2024-03-11 at 16 02 41" src="https://github.com/akshunmish7/ML-Marketplace/assets/95397400/d71f694d-a600-432f-9d73-4a1bdac0f055">
 
 Website used to calculate the load time [Website](https://tools.pingdom.com/)
+
+<img width="723" alt="Screenshot 2024-03-11 at 15 34 48" src="https://github.com/akshunmish7/ML-Marketplace/assets/95397400/6fbeb65a-d046-499e-9f90-87fbd041ee4c">
 
 Website used to measure other parameters[Website](https://pagespeed.web.dev/)
 
