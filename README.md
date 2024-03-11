@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Overview Of The Project
+### All Models are displayed as catalogue in the webpage 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Category Sorting
+The models can be categorised by their nature such as NLP, Computer Vision, Speech Recognition, GANs, and Reinforcement Learning 
+new categories can be added as and when required.
 
-## Available Scripts
+### Most Liked Models
+The models which come under the category of most liked can be seen on clicking the most liked models Button.
 
-In the project directory, you can run:
+### Featured Organizations
+The Orgs which are currently leading in generating AI and LLM Models have been shown there and based on the companies you can view each of their models.
 
-### `npm start`
+### Search Bar
+The search Bar section allows you to seacrh any model that you want easily and once you start typing you will see the search results.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Read More Section of Each Model
+On Clicking the read more button of any model you will be able to see the description and various use cases of that model.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# FrameWork Plugins and Packages Used 
 
-### `npm test`
+### The JavaScript framework chosen for this project is React. Additionally, the major plugins or packages installed include:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **@testing-library/jest-dom:** Version "^5.16.5"
+2. **@testing-library/react:** Version "^13.4.0"
+3. **@testing-library/user-event:** Version "^13.5.0"
+4. **react:** Version "^18.2.0"
+5. **react-dom:** Version "^18.2.0"
+6. **react-icons:** Version "^4.8.0"
+7. **react-scripts:** Version "5.0.1"
+8. **web-vitals:** Version "^2.1.4"
 
-### `npm run build`
+These packages are specified under the "dependencies" section of the package.json file.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Page Load Time Of The Project 
+The Page Load time of the project is 162ms in Asia-Japan-Tokyo region
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Website used to calculate the load time [Website](https://tools.pingdom.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Website used to measure other parameters[Website](https://pagespeed.web.dev/)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
